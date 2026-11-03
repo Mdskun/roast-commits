@@ -1,0 +1,19 @@
+{
+  "name": "roast-commits",
+  "version": "0.1.0",
+  "description": "CLI that roasts your git commits, live or from history",
+  "type": "module",
+  "bin": {
+    "roast": "bin/roast.js",
+    "roast-commits": "bin/roast.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "bin",
+    "src"
+  ],
+  "keywords": ["git", "cli", "roast", "commits", "llm"],
+  "license": "MIT"
+}
